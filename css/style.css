@@ -675,7 +675,9 @@ footer {
   color: var(--color-background-dark);
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {  /* RESPONSIVIDADE PARA TABLET, ALTERANDO ALGUNS MINIMOS DETALHES  */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  /* RESPONSIVIDADE PARA TABLET, ALTERANDO ALGUNS MINIMOS DETALHES  */
   img {
     width: 230px;
     margin-left: 170px;
@@ -735,7 +737,7 @@ footer {
     font-size: 1.2rem;
   }
 
-  .carousel-item img{
+  .carousel-item img {
     margin: 0;
   }
 
@@ -747,7 +749,92 @@ footer {
     height: 50vh;
   }
 
-  footer img{
-    margin-left: 15px;  
+  footer img {
+    margin-left: 15px;
   }
+}
+
+@media screen and (min-width: 1025px) { /*RESPONSIVIDADE PARA COMPUTADOR ("AINDA FALTA AJUSTAR AS FOTOS DOS SLIDES INICIAIS")*/
+  .t-main {
+    font-size: 5.9rem;
+    line-height: 5rem;
+    margin-bottom: 60px
+  }
+
+  .p-main {
+    line-height: 130px;
+    font-size: 2rem;
+  }
+
+  .bnt-contato-main {
+    padding: 15px 50px;
+    font-size: 25px;
+  }
+
+  .title-about {
+    margin-top: 4rem;
+    font-size: 5rem;
+    letter-spacing: 10px;
+  }
+
+  .title-us {
+    top: 108%;
+    left: 45%;
+    font-size: 6rem;
+  }
+
+  .img-logo-main {
+    width: 55%;
+  }
+
+  .p-about {
+    font-size: 23px;
+    padding: 52px 20px;
+    line-height: 25px;
+  }
+
+  .title-our-services {
+    font-size: 4.5rem;
+    margin-top: -1rem;
+    margin-bottom: 5rem;
+    letter-spacing: 4px;
+  }
+
+  .title-our {
+    font-size: 3.5rem;
+    letter-spacing: 5px;
+    top: 1rem;
+  }
+
+  .service-cards {
+    gap: 8rem;
+  }
+
+ #serviços {
+  margin-bottom: 65px;
  }
+
+ .carousel {
+  margin: 100px 33%;
+}
+
+.contato-tittle {
+  font-size: 3.5rem;
+  margin-bottom: 4rem;
+  letter-spacing: 3px;
+  margin-top: -125px;
+}
+
+.p-contato {
+  font-size: 1.4rem;
+  margin-bottom: 3rem;
+}
+
+#contato {
+  height: 52vh;
+}
+
+img {
+  width: 220px;
+}
+}
